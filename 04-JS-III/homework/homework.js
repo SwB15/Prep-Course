@@ -260,7 +260,7 @@ function breakStatement(numero) {
   let num = [];
   let suma = numero;
   for (i = 0; i < 10; i++) {
-    suma +=2;
+    suma += 2;
     num.push(suma);
 
     if (suma === i) {
@@ -287,7 +287,7 @@ function continueStatement(numero) {
     suma += 2;
     num.push(suma);
   }
-  
+
   return num;
 }
 
